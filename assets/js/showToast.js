@@ -16,7 +16,7 @@ mid-center value to..
 { top: '-', bottom: '-', left: '-', right: '-' } javascript object with positioning properties as you set in CSS
 stack: how many toast messages at a time
 */
-function showToast(position,message, type,icon, duration) {
+function showToast(position, message, type, icon, duration) {
     $.toast({
       heading: icon,
       text: message,
